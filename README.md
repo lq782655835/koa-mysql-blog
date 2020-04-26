@@ -1,4 +1,4 @@
-<p align="center"><a href="http://www.boblog.com" target="_blank" rel="noopener noreferrer"><img width="234" src="http://images.boblog.com/BOBLOG-03.png" alt="logo"></a></p>
+# koa-mysql-blog
 
 ## 一、这是个什么的项目？
 
