@@ -4,8 +4,6 @@
 
 基于 Node.js Koa2 实战开发的一套完整的博客项目网站，使用 Koa2 二次开发一套适合多端的 RESTful API，同时配套完整的后台管理系统，且前端展示既有基于 ejs 服务端渲染，也有基于 Vue.js 前后端分离的 2 套前端网站。
 
-博客线上地址是：[https://www.boblog.com](https://www.boblog.com/)
-
 ## 二、项目包含什么功能？
 
 [![koa](https://img.shields.io/badge/koa-%5E2.7.0-brightgreen.svg) ](https://www.npmjs.com/package/koa)
@@ -39,8 +37,8 @@
 
 ### 2.4.知识点
 - 服务端：`Node.js, Koa, MySQL, Sequelize, Redis`
-- 前端服务端渲染：`ejs, jQuery, Bootstrap`, [体验网址：www.boblog.com](https://www.boblog.com/)
-- 前后端分离：`Vue.js, iviewui`, [体验网址：vue.boblog.com](http://vue.boblog.com/)
+- 前端服务端渲染：`ejs, jQuery, Bootstrap`
+- 前后端分离：`Vue.js, iviewui`
 - 后端管理系统：`Vue.js, iviewui`
 - 性能优化
 - 非常适合想用 `Node.js Koa2` 做网站的朋友，相信你一定能学到知识。
@@ -50,7 +48,7 @@
 首先使克隆项目，然后进入项目根目录使用命令安装包，最后命令启动项目，代码会根据模型自动创建数据库表的。
 ```
 # 克隆项目代码
-$ git clone https://github.com/LFB/nodejs-koa-blog.git
+$ git clone https://github.com/lq782655835/koa-mysql-blog.git
 ```
 
 ### 3.2.数据库
@@ -112,20 +110,3 @@ $ npm run dev
 - [评论接口文档说明](./doc/comment.md)
 - [评论回复接口文档说明](./doc/reply.md)
 - [广告接口文档说明](./doc/advertise.md)
-
-## 五、FAQ
-1. 没有yarn环境，npm 可以吗？ 
-> 答：可以的，建议使用 yarn，yarn 比 npm 速度快，主要是安装版本统一。
-
-2. 启动 Koa2 项目报错，请问原因？
-> 答：首先，请检查一下使用 npm 或 yarn 安装依赖包没。然后，再请检查一下确保安装好数据库，新建好数据库：boblog，请看上面的数据库配置。最后看下启动打印日志是否有报错的信息。
-3. ... 更多问题请到 [Issues](https://github.com/LFB/nodejs-koa-blog/issues)查阅，或者有问题请到 [Issues 提问](https://github.com/LFB/nodejs-koa-blog/issues/new)。
-
-## License
-
-项目已实现管理员、权限管理、文章、分类、评论等接口，前端模板网站和后台管理系统。自己可以根据项目代码学习，可以到 postman 软件中测试API或学习。
-
-喜欢或对你有帮助的话，请你点一个星星 <strong style='color:red;'>star</strong> 鼓励我，或者您有更好的建议和意见，请提出来告知我，可以留言 [Issues](https://github.com/LFB/nodejs-koa-blog/issues/new)。希望能够帮助到你学习！Thanks！共勉！
-
-[MIT](https://github.com/LFB/nodejs-koa-blog/blob/master/LICENSE), by 梁凤波
-
